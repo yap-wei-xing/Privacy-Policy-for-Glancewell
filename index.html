@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | Productivity Tab Dashboard</title>
+  <meta name="description" content="Privacy policy for the Productivity Tab Dashboard Chrome extension.">
+  <style>
+    :root {
+      --bg: #fafbfc;
+      --surface: #ffffff;
+      --text: #1c1f24;
+      --muted: #5b6270;
+      --accent: #24365c;
+      --border: #e3e6eb;
+      --pill: #eef1f6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1a1b1e;
+        --surface: #232427;
+        --text: #e6e6e6;
+        --muted: #a3a7ae;
+        --accent: #c9a463;
+        --border: #34363b;
+        --pill: #2c2e32;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 16px 64px;
+    }
+    header { margin-bottom: 32px; }
+    .eyebrow {
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin: 0 0 8px;
+    }
+    h1 { font-size: 32px; line-height: 1.2; margin: 0 0 12px; }
+    .meta { color: var(--muted); font-size: 14px; margin: 0; }
+    .summary {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin: 0 0 40px;
+    }
+    .summary p { margin: 0 0 12px; }
+    .summary ul { margin: 0; padding-left: 20px; }
+    .summary li + li { margin-top: 6px; }
+    h2 {
+      font-size: 20px;
+      margin: 40px 0 12px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    p, li { color: var(--text); }
+    ul { padding-left: 22px; }
+    li + li { margin-top: 8px; }
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    .tag {
+      display: inline-block;
+      background: var(--pill);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 999px;
+      padding: 1px 8px;
+      margin-left: 6px;
+      vertical-align: 2px;
+    }
+    footer {
+      margin-top: 48px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 480px) {
+      main { padding-top: 32px; }
+      h1 { font-size: 26px; }
+      .summary { padding: 16px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Productivity Tab Dashboard</p>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: September 29, 2026 · Developer: Yap Wei Xing</p>
+    </header>
+
+    <section class="summary" aria-label="Summary">
+      <p>Productivity Tab Dashboard replaces Chrome's new tab page with a personal dashboard (tasks, calendar, notes, links, habits, timers, ambient sounds and similar tools).</p>
+      <ul>
+        <li>The developer does not run any server and never receives your data.</li>
+        <li>No accounts, no ads, no analytics, no tracking.</li>
+        <li>Your data is never sold, and never used for anything except the features you use.</li>
+      </ul>
+    </section>
+
+    <h2>Information the extension stores</h2>
+    <p>Everything you enter (tasks, events, notes, links, snippets, habits, settings, theme and wallpaper choices) is saved in your own browser:</p>
+    <ul>
+      <li><strong>Chrome sync storage.</strong> Most settings and lists are saved here so they follow you to other computers where you are signed in to Chrome with sync turned on. This data is stored and synced by Google as part of Chrome Sync, under <a href="https://policies.google.com/privacy">Google's privacy policy</a>. The developer cannot see it.</li>
+      <li><strong>Local storage on this device.</strong> Larger or device-specific data (notes, Kanban items, wallpaper photos, uploaded sound files, pet positions, the Spotify sign-in token) stays on this computer only.</li>
+    </ul>
+
+    <h2>Browsing history</h2>
+    <p>The Most Visited widget reads your Chrome browsing history to show the sites you visit most. This happens only on your device. History is never copied out of Chrome and never sent anywhere. Sites you hide from the widget are saved in your settings.</p>
+
+    <h2>Features that contact other services</h2>
+    <p>These only run when you use them.</p>
+    <ul>
+      <li><strong>Spotify</strong><span class="tag">Optional</span><br>If you connect your Spotify account, the extension talks directly to Spotify to show what is playing and to play, pause, skip, seek and change volume. The sign-in token is stored on this device only and is never included in exports. You can disconnect at any time in Settings. See <a href="https://www.spotify.com/legal/privacy-policy/">Spotify's privacy policy</a>.</li>
+      <li><strong>Translate (Quick Tools)</strong><br>When you click Translate, the text you typed opens in Google Translate in a new tab. Nothing is sent unless you click. See <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</li>
+      <li><strong>Focus blocking and in-page reminders</strong><span class="tag">Optional</span><br>If you allow access to all sites for these features, the extension checks the address of your open tabs against your own block list (to redirect blocked sites during a focus session) and can show a reminder popup on the page you are viewing. Page addresses and page content are never stored or sent anywhere.</li>
+    </ul>
+
+    <h2>Data sharing</h2>
+    <p>The developer does not collect, sell, rent or share your data with anyone. Data only reaches Google (through Chrome Sync, or Google Translate when you click Translate) or Spotify (when you connect it) as described above.</p>
+
+    <h2>Your control over your data</h2>
+    <ul>
+      <li><strong>Access and portability:</strong> export all your data to a file in Settings &gt; Export &amp; Import, and import it back.</li>
+      <li><strong>Deletion:</strong> delete any item inside the app, use Delete All Data in Settings, or remove the extension, which deletes the data it stored in Chrome.</li>
+      <li><strong>Opt out:</strong> Spotify, focus blocking and in-page reminders are off until you turn them on, and can be turned off at any time.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>The extension is not directed at children under 13 and does not knowingly collect information from them.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If what the extension stores or sends ever changes, this page will be updated and the date at the top will change.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or requests about this policy: <a href="mailto:ywx2004@gmail.com">ywx2004@gmail.com</a></p>
+
+    <footer>© 2026 Yap Wei Xing</footer>
+  </main>
+</body>
+</html>
